@@ -480,10 +480,9 @@ width: 50dvw;
        
          transform: translate(0px, 0px);
         flex-direction: row;
-
         width: 100dvw;
         height: 20px;
-        position: sticky;
+        position: fixed;
         padding-left: inherit;
         bottom:0 ;
     }
