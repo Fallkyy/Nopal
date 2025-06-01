@@ -14,7 +14,7 @@ body {
     margin: 0;
     height: 100dvh;
     width: 100dvw;
-background-color: rgb(2, 170, 156);
+background-color: white;
 overflow-x: hidden;
 
 transition: 0.1s;
@@ -37,8 +37,8 @@ transform: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(71, 125, 187, 100);
- border-bottom: 2px solid white;
+    background-color: white;
+ border-bottom: 2px solid blue;
 height: 80px;
 position: fixed;
 color: black;
@@ -139,6 +139,10 @@ i {
     
 }
 
+.fa-moon,.fa-sun,.fa-home,.fa-book,.fa-graduation-cap {
+    color:black;
+}
+
 .text h3 {
     margin-top: 10px;
     color: rgba(255, 255, 255, 0.986);
@@ -196,7 +200,7 @@ i {
     border-right: 3px solid  white;
     border-bottom: 5px solid white;
     border-bottom-right-radius: 10px;
-    background-color: rgba(71, 125, 187, 0.534);
+    background-color: white;
     transition: 0.5s;
 
 
@@ -438,7 +442,7 @@ height: 538px;
 
 @media (max-width :768px) {
 .header {
-    width: 101dvw;
+    width: 104dvw;
     position: fixed;
     top:0;
     z-index:1000;
@@ -532,11 +536,11 @@ margin-left: -40px;
     }
 
     #capaian {
-        margin-left:-50px
+        margin-left:-70px
     }
 
     #tujuan {
-        margin-left:50px
+        margin-left:70px
     }
 
     
