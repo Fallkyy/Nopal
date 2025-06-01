@@ -441,6 +441,7 @@ height: 538px;
     width: 100dvw;
     position: fixed;
     top:0;
+    z-index:1000;
 }
 
 
@@ -485,6 +486,7 @@ width: 50dvw;
         position: fixed;
         padding-left: inherit;
         bottom:0 ;
+        z-index:1000;
     }
 
     a:hover .dropdown {
@@ -498,6 +500,10 @@ width: 50dvw;
     .content {
         padding-left: 30%;
  
+    }
+
+    .card {
+        width:200px
     }
 
     .material {
