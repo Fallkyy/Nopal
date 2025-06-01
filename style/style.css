@@ -438,7 +438,7 @@ height: 538px;
 
 @media (max-width :768px) {
 .header {
-    width: 100dvw;
+    width: 101dvw;
     position: fixed;
     top:0;
     z-index:1000;
@@ -457,7 +457,7 @@ width: 50dvw;
     margin-left: 0;
     text-align: center;
     padding-top: 100px;
-    height: 400px;
+    height: 550px;
 
    }
 
@@ -522,11 +522,21 @@ margin-left: -40px;
        
     }
 
+    
+
 
 
     #capaian, #tujuan {
         transform: inherit;
         font-size: 13px;
+    }
+
+    #capaian {
+        margin-left:-50px
+    }
+
+    #tujuan {
+        margin-left:50px
     }
 
     
